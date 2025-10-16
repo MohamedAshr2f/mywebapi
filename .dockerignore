@@ -1,0 +1,57 @@
+# .dockerignore for a .NET WebAPI project
+
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet / packages
+**/packages/
+*.nupkg
+*.snupkg
+
+# Runtime / logs / DB
+*.log
+*.db
+*.sqlite
+*.pid
+
+# Local settings & secrets
+appsettings.Development.json
+local.settings.json
+secrets.json
+*.key
+*.pem
+
+# Source control and repo metadata
+.git
+.gitignore
+.gitattributes
+
+# Docker Compose / tooling (not needed in image)
+docker-compose*
+.dockerignore
+
+# Node / front-end artifacts
+node_modules/
+
+# Test results / coverage
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.DS_Store
