@@ -1,0 +1,71 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.cache
+*.log
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ASP.NET specific
+launchSettings.json
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Entity Framework Migrations backup files
+Migrations/Backup/
+*.bak
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs
+*.log
+Logs/
+log/
+logs/
+
+# Publish outputs
+publish/
+*.publishsettings
+
+# Docker
+docker-compose.override.yml
+*.dbmdl
+
+# Coverage and Test Results
+TestResults/
+coverage/
+coverage*.json
+*.coverage
+*.coveragexml
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+*.swp
